@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV CONFIG_JSON=none VER=4.15.0
+ENV CONFIG_JSON=none VER=4.18.2
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && mkdir -m 777 /v2ray \ 
